@@ -1,0 +1,20 @@
+{
+  "name": "jnu-notifications-bot",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler publish",
+    "start": "wrangler dev",
+    "test": "node test/test.js"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "md5": "^2.3.0",
+    "node-html-parser": "^6.1.5"
+  }
+}

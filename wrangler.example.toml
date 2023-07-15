@@ -1,0 +1,12 @@
+name = "jnu-notifications-bot"
+main = "src/worker.js"
+compatibility_date = "2023-06-27"
+[vars]
+BOT_TOKEN="<TELEGRAM_BOT_TOKEN_HERE>"
+CHANNEL_ID="<CHANNEL_ID_HERE>"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "<DATABASE_NAME_HERE>"
+database_id = "<DATABASE_ID_HERE>"
+
