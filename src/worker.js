@@ -14,14 +14,13 @@ bot.set_chatid(env.CHANNEL_ID);
 
 export default {
 	async fetch(request, env, ctx) {
-
-		return handleReq(request, env, ctx);
-
+        // WE DONT USE THIS PART 
+        // so ignore this
 
 		// let pk = "how did you get here?";
 
-		// // ctx.waitUntil(await run_scheduled(env));
-		// // FLUSH_LOGS();
+		// // // ctx.waitUntil(await run_scheduled(env));
+		// // // FLUSH_LOGS();
 		// return Response.json({ pk, status: "i wana know your name" });
 	},
 	async scheduled(event, env, ctx) {
