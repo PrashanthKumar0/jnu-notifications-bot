@@ -55,20 +55,19 @@ To use the JNU Notifications Bot, follow these steps:
      wrangler init
      ```
 
-   - Update the `wrangler.toml` file in your project directory with your Cloudflare account information.
+   - Update the `wrangler.toml` file in your project directory with your Cloudflare account information. (provided reference `wrangler.exmple.toml`)
 
 4. Set up Cloudflare's Durable Objects database:
 
    - Create a database and run the `schema.sql` file using `wrangler`:
 
      ```shell
-     wrangler db init
-     wrangler db apply --schema schema.sql
+        wrangler d1 execute <DATABASE_NAME> --file=schema.sql
      ```
 
 5. Customize the bot:
 
-   - Adjust the settings and preferences in the `config.js` file according to your requirements.
+   - Adjust the settings and preferences in the `wrangler.toml` file according to your requirements. (provided reference `wrangler.exmple.toml`)
 
 6. Deploy the bot:
 
@@ -86,7 +85,6 @@ To test the bot locally, run the following command:
 npm run dev
 ```
 
-Make sure you have set up your Cloudflare Workers and Durable Objects environment variables correctly for local development.
 
 ## Contributing
 
@@ -101,14 +99,12 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 If you have any questions or need further assistance, feel free to reach out to the project maintainer:
 
 - Name: [Prashanth Kumar]
-- Telegram: [t.me/prashanthKumar0]
+- Telegram: [@prashanthKumar0](https://t.me/prashanthKumar0)
 
-## Acknowledgments
+<!-- ## Acknowledgments
 s
-Special thanks to [Name] for their valuable contributions to this project.
+Special thanks to [Name] for their valuable contributions to this project. -->
 
 <!-- Add any additional acknowledgments or credits if necessary -->
 
 ---
-
-Now that you have the README.md content, feel free to make any modifications or additions to personalize it further. Make sure to include any relevant instructions, usage examples, and necessary dependencies specific to your project.
