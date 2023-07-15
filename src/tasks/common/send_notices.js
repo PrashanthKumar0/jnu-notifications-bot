@@ -51,25 +51,7 @@ export async function send_notices({ site, env, bot, get_notices_fn, get_db_json
 
 
 
-
-    /*
-        TODO : Reomve this testing part
-    */
-
-        let channel_id_log = "@undefined3301_bot_logs";
-        let bot_log = new Bot(bot.bot_token);
-        bot_log.set_chatid(channel_id_log);
-        await bot_log.send_message(`
-
-        
-🌍 SITE    :  ${site}
-┗✦ Payload :  ${JSON.stringify(filtered_notices)}
-┗✦ Old Hash : ${md5(cached_notices_str)}
-┗✦ New Hash : ${md5(notices_str)}
-┗✦ Old Json : ${cached_notices_str}
-┗✦ New Json : ${notices_str}
-`)
-        
+       
 
 
 }
