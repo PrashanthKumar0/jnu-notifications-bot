@@ -1,6 +1,6 @@
 # JNU Notifications Bot
 
-![Bot Logo](path/to/logo.png) <!-- If you have a logo, add it here -->
+![Bot Logo](bot.png) 
 
 A bot designed to solve various problems faced by JNU students. This repository contains the code for a Telegram bot that automates the process of checking for updates on the JNU website and sends notifications to a designated channel.
 
