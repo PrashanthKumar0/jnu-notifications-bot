@@ -101,10 +101,9 @@ If you have any questions or need further assistance, feel free to reach out to 
 - Name: [Prashanth Kumar]
 - Telegram: [@prashanthKumar0](https://t.me/prashanthKumar0)
 
-<!-- ## Acknowledgments
-s
-Special thanks to [Name] for their valuable contributions to this project. -->
-
+## Acknowledgments
+Special thanks to [biraj patel](https://github.com/biraj21) for their valuable contributions to this project and Also without him i wouldn't have posted this on github , I didnt had any plan to post it on github initially.
+---
 <!-- Add any additional acknowledgments or credits if necessary -->
 
 ---
